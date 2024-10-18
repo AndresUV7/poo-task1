@@ -2,7 +2,7 @@ package practice1;
 import java.util.List;
 import java.time.LocalDate;
 
-public class Student {
+public abstract class Student {
     private String name;
     private LocalDate birthDate;
     private List<Integer> grades;
